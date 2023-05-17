@@ -1,6 +1,6 @@
 import './banner.styles.css';
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../../assets/img/header-img.svg";
+import headerImg from "../../assets/img/Handsome.png";
 const Banner = () => {
     return (
         <section className="banner" id="home">
