@@ -2,6 +2,7 @@ import './banner.styles.scss';
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../../assets/img/Handsome.png";
 import {useState, useEffect} from "react";
+
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);

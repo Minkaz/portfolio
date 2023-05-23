@@ -1,0 +1,20 @@
+.projects {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 80vh;
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.projects-container {
+  margin-top: 40px;
+  text-align: center;
+
+  p {
+    margin-top: 20px;
+  }
+}
