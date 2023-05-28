@@ -1,26 +1,21 @@
 .banner {
-    margin-top: 0;
-    // padding: 260px 0 100px 0;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
+  margin-top: 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
 
 .info-row {
-    display: flex;
-    align-items: center;
-}
-
-.profile-picture {
-    width: 90%;
+  display: flex;
+  align-items: center;
 }
 
 .banner-container {
-    font-size: 26px;
+  font-size: 26px;
 
-    h1 {
-        margin-bottom: 15px;
-    }
+  h1 {
+    margin-bottom: 15px;
+  }
 }

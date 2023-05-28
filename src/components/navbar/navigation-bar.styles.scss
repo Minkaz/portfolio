@@ -1,93 +1,111 @@
 nav.navbar {
-    padding: 18px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 9999;
-    transition:  0.32s ease-in-out;
+  padding: 18px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32s ease-in-out;
+}
+
+nav.navbar.scrolled {
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+  height: 90px;
+  padding: 10px 0 0;
+}
+
+.active-link {
+  color: black;
+  font-weight: bold;
 }
 
 .container {
-    display: flex;
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1280px;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .navbar-collapse {
-    display: flex;
-    align-items: center;
-    margin: auto;
-    width: 100%;
-    justify-content: end;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .portfolio {
-    font-size: 30px;
-    font-weight: 1000;
+  font-size: 30px;
+  font-weight: 1000;
 }
 
 a {
-    font-weight: 400;
-    letter-spacing: 0.8px;
-    padding: 0 10px;
-    font-size: 18px;
-    opacity: 0.75;
-    display: block;
-    color: black;
-    text-decoration: none;
-    transition: color .15s
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  padding: 0 10px;
+  font-size: 18px;
+  opacity: 0.75;
+  display: block;
+  color: black;
+  text-decoration: none;
+  transition: color .15s
 }
 
 .navbar-nav {
-    display: flex;
+  display: flex;
+}
+
+.connect {
+  border: 1px solid black;
+  padding: 20px;
+  opacity: 1;
 }
 
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .social-icon {
-    display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
 }
+
 .social-icon a {
-    width: 42px;
-    height: 42px;
-    background: black;
-    display: inline-flex;
-    border-radius: 50%;
-    margin-right: 6px;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 42px;
+  height: 42px;
+  background: darkgray;
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .social-icon a img {
-    z-index: 1;
-    transition: 0.3s ease-in-out;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
 }
 
 .navbar-text {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-text button {
-    font-weight: 700;
-    color: black;
-    border: 1px solid black;
-    padding: 18px 34px;
-    font-size: 18px;
-    margin-left: 18px;
-    position: relative;
-    background-color: transparent;
-    transition: 0.3s ease-in-out;
+  font-weight: 700;
+  color: black;
+  border: 1px solid black;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin-left: 18px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
 }
