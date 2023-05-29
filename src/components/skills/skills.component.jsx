@@ -18,14 +18,23 @@ const Skills = () => {
                             <div className={"items-container"}>
                                 <div className={"item"}>
                                     <img src={laravelImg} alt={"laravel"}/>
+                                    <span className={"image-text"}>
+                                        <h3>PHP/Laravel</h3>
+                                    </span>
                                 </div>
 
                                 <div className={"item"}>
                                     <img src={angularImg} alt={"angular"}/>
+                                    <span className={"image-text padding-8"}>
+                                        <h3>Angular</h3>
+                                    </span>
                                 </div>
 
                                 <div className={"item"}>
                                     <img src={reactImg} alt={"react"}/>
+                                    <span className={"image-text padding-29"}>
+                                        <h3>React</h3>
+                                    </span>
                                 </div>
                             </div>
                         </div>
