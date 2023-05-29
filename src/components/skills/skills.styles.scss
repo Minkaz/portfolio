@@ -10,6 +10,15 @@
   padding: 60px 340px;
   color: white;
 
+ .container {
+   @media only screen and (max-width: 1326px) {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+   }
+ }
+
   h2 {
     padding-bottom: 20px;
   }

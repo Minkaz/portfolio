@@ -5,6 +5,10 @@
   height: 80vh;
   background-image: linear-gradient(to right, #434343 0%, black 100%);
 
+  @media only screen and (max-width: 1326px) {
+    width: auto;
+  }
+
   p {
     margin-top: 20px;
     line-height: 30px;
@@ -37,6 +41,7 @@
       img {
         padding: 20px;
         height: 90%;
+        width: 100%;
       }
 
       h4 {
