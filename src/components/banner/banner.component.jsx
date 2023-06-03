@@ -51,7 +51,7 @@ const Banner = () => {
                             <h1>{`Hi! I'm Mindaugas`} <span className="wrap">{text}</span></h1>
                             <p>
                                 I develop full stack applications using PHP for backend and React/Angular for FE.
-                                I love what I do and I am always looking to improve. If you are interested in my experience contact me.
+                                I love what I do and I am always looking to improve. If you are interested in my experience <a href="#footer"> contact me. </a>
                             </p>
                         </div>
                     </Col>
