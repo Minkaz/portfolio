@@ -11,6 +11,10 @@ nav.navbar.scrolled {
   background-image: linear-gradient(to right, #DECBA4, #3E5151);
   height: 90px;
   padding: 10px 0 0;
+
+  @media screen and (max-width : 480px) {
+    height: 70px;
+  }
 }
 
 .active-link {
@@ -35,11 +39,19 @@ nav.navbar.scrolled {
   margin: auto;
   width: 100%;
   justify-content: flex-end;
+
+  @media screen and (max-width : 480px) {
+    justify-content: initial;
+  }
 }
 
 .portfolio {
   font-size: 30px;
   font-weight: 1000;
+
+  @media screen and (max-width : 630px) {
+    display: none;
+  }
 }
 
 a {
@@ -62,6 +74,14 @@ a {
   border: 1px solid black;
   padding: 20px;
   opacity: 1;
+
+  @media screen and (max-width : 480px) {
+   display: none;
+  }
+
+  @media screen and (max-width : 800px) {
+    padding: 13px;
+  }
 }
 
 img {
@@ -73,6 +93,19 @@ img {
   display: inline-block;
   margin-right: 20px;
   margin-left: 20px;
+
+  @media screen and (max-width : 480px) {
+    display: inline-block;
+    margin: 0;
+  }
+
+  @media screen and (max-width : 800px) {
+    display: flex;
+  }
+
+  img {
+      width: 100%;
+  }
 }
 
 .social-icon a {

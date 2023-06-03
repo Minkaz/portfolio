@@ -22,6 +22,8 @@ const Footer = () => {
                                     kazukauskas.mindaugas@gmail.com</a>
                                 <a className={"connect-link"} href="https://linkedin.com/in/mindaugas-kažukauskas-527846228" rel="noreferrer"
                                    target="_blank">Linked in</a>
+                                <a className={"connect-link"} href="https://github.com/Minkaz" rel="noreferrer"
+                                   target="_blank">Github</a>
                             </div>
                         </div>
                     </Col>
